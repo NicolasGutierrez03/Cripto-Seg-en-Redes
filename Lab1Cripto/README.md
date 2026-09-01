@@ -17,11 +17,6 @@ Repositorio que contiene los scripts en Python desarrollados para el laboratorio
 * Sistema operativo Linux (probado en entornos basados en Arch/Debian).
 * Python 3.x
 * Dependencias de red (Scapy):
-
-```bash
-pip install scapy
-```
-
 * Privilegios de administrador (`sudo`) para el uso de sockets crudos (requerido al enviar paquetes ICMP personalizados y capturar tráfico de red).
 
 ---
