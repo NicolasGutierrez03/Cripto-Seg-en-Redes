@@ -27,7 +27,8 @@ Repositorio que contiene los scripts en Python y la documentación del laborator
 Levanta la aplicación web vulnerable en un contenedor Docker local en el puerto `8080`.
 
 ```bash
-docker run --rm -it -p 8080:80 vulnerables/web-dvwa
+docker pull vulnerables/web-dvwa
+docker run -d --name dvwa_lab -p 8080:80 vulnerables/web-dvwa
 ```
 
 ---
