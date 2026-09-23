@@ -7,7 +7,6 @@ Repositorio que contiene los scripts en Python y la documentación del laborator
 ## Estructura del Repositorio
 
 * `DVWA_Script.py`: Script en Python que automatiza un ataque de fuerza bruta HTTP GET contra el módulo vulnerable de autenticación en DVWA (`vulnerabilities/brute/`), inyectando sesiones activas y evaluando aciertos mediante la ausencia de mensajes de error.
-* `informe.tex`: Documento fuente en LaTeX que consolida la redacción formal de todas las actividades, análisis de tráfico, capturas y contramedidas del laboratorio.
 * `imagenes/`: Carpeta que almacena las capturas de pantalla de Wireshark, consola y evidencias gráficas utilizadas en el informe.
 
 ---
